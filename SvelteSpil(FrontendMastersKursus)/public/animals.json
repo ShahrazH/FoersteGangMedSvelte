@@ -1,0 +1,18 @@
+{
+    "animals": [
+        {
+            "id": 0,
+            "name": "GOOD BOY",
+            "age": 12,
+            "color": "black",
+            "race": "dog"
+        },
+        {
+            "id": 1,
+            "name": "meh",
+            "age": 2300,
+            "color": "boring",
+            "race": "cat"
+        }
+    ]
+}
