@@ -3,6 +3,7 @@ Jeg har i denne uge (Faglig fornyelse) prøvet at lege med frameworket Svelte
 
 Mine resultater kan ses 
 
-[sveltespil.netlify.app](her - Svelte Spil)
+[Her - Svelte Spil](sveltespil.netlify.app)
 
-[sveltesandbox.netlify.app](og her - Svelte Sandbox)
+[Og her - Svelte sandbox](sveltesandbox.netlify.app)
+
