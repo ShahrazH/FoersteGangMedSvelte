@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from "svelte";
-	import welcome from "./screens/welcome.svelte";
+	import Welcome from "./screens/Welcome.svelte";
 	import Game from "./screens/Game.svelte";
 	import { select } from "./select.js";
 	import { load_image } from "./utils";
