@@ -1,9 +1,9 @@
 <script>
 	import { onMount } from "svelte";
-	import Welcome from "./screens/Welcome.svelte";
-	import Game from "./screens/Game.svelte";
-	import { select } from "./select.js";
-	import { load_image } from "./utils";
+	import Welcome from "/screens/Welcome.svelte";
+	import Game from "/screens/Game.svelte";
+	import { select } from "/select.js";
+	import { load_image } from "/utils";
 
 	let celebs_promise;
 
