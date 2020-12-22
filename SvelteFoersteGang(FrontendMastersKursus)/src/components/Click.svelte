@@ -9,6 +9,7 @@
 <style>
     button {
         outline: none;
+        margin-bottom: 2em;
     }
 </style>
 
