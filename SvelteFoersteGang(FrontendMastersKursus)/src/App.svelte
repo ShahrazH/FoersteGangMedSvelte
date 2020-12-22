@@ -2,14 +2,18 @@
 <script>
     export let name;
     export let day;
-    import Button from "./Button.svelte";
-    import TestComponent from "./TestComponent.svelte";
+    import Button from "./components/Button.svelte";
+    import PropTest from "./components/PropTest.svelte";
+    import Array from "./components/Array.svelte";
+    import Click from "./components/Click.svelte";
 
-    const test = {
+    //Her henter definerer vi vores props som vi sætter ind i PropTest komponentet
+    const props = {
         ord1: "dette",
         ord2: "er",
         ord3: "en",
-        ord4: "test",
+        ord4: "prop",
+        ord5: "test",
     };
 </script>
 
@@ -23,11 +27,16 @@
 </style>
 
 <h1>Hello {name}!</h1>
-<h2>The day is {day}</h2>
-<TestComponent
-    dette={test.ord1}
-    er={test.ord2}
-    en={test.ord3}
-    test={test.ord4} />
+<h2>I dag er det den {day}</h2>
+<PropTest
+    dette={props.ord1}
+    er={props.ord2}
+    en={props.ord3}
+    prop={props.ord4}
+    test={props.ord5} />
 
-<Button />
+<Button on:click={() => console.log('Nice click!')} />
+
+<Array />
+
+<Click />

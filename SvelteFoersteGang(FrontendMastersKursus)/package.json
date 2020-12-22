@@ -1,0 +1,21 @@
+{
+  "name": "SvelteFoersteGang(FrontendMastersKursus)",
+  "version": "1.0.0",
+  "description": "Det her en sandbox som jeg lavede i takt med at jeg så første del af Svelte kurset på Frontend Masters - Her er lidt rodet men her kan man blandt andet se nogle af de ting man har mulighed for at lave med svelte.",
+  "main": "rollup.config.js",
+  "dependencies": {
+    "rollup": "^2.35.1",
+    "rollup-plugin-css-only": "^3.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "serve": "^11.3.2",
+    "svelte": "^3.31.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
